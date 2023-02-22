@@ -1,0 +1,33 @@
+.Df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+img{
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.MainContent{
+    height: 50vh;
+    /* background-color: brown; */
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer{
+    /* background-color: aqua; */
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
